@@ -1,1 +1,7 @@
 This page is for notes 
+
+"Elements" are the pieces themselves, i.e. a paragraph is an element, a header is an element, 
+even the body is an element. Most elements can contain other elements, as the body element would contain header 
+elements, paragraph elements, in fact pretty much all of the visible elements of the Document Object Model 
+(that developers refer to as the "DOM").
+
