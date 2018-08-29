@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+This is the second page
+{% endblock %}
+
+{% block body %}
+        <p> This is an example for url links this is more page </p>
+        <a href="{{ url_for('index') }}">Go back...</a>
+{% endblock %}
