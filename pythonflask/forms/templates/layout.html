@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Website</title>
+        <style>
+        body{
+          background-color: deepskyblue;
+          color: #fff;
+          font-weight: 600;
+          text-align: center;
+          font-weight: 600;
+        }
+        em{
+          font-size: 300%;
+          color: cyan;
+        }
+        </style>
+    </head>
+    <body>
+      <h1>{%block heading %}{% endblock %}</h1>
+      <h2>Welcome to layout structure</h2>
+
+      {% block body %}
+      {% endblock %}
+
+    </body>
+</html>
