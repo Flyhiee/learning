@@ -9,4 +9,5 @@ def index():
 
 @app.route("/<string:name>")
 def hello(name):
+    name = name.capitalize()
     return "Hello, {}!".format(name)
