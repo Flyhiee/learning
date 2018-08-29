@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+    <title>Is it new Year?</title>
+    <style>
+    body{
+      text-align: center;
+      font-size: 200%;
+      font-weight: 600;
+      color: red;
+    }
+    h1.yee{
+    margin-top: 0px;
+      color: green;
+      background-repeat:no-repeat;
+      height: 600px;
+      background: url("https://searchengineland.com/figz/wp-content/seloads/2017/01/new-years-day-2017.gif");
+    }
+    </style>
+  </head>
+  <body>
+    {% if new_year %}
+      <h1 class="yee"> Yes! Happy New Year!</h1>
+    {% else %}
+      <h1>NO</h1>
+      {% endif %}
+  </body>
+</html>
