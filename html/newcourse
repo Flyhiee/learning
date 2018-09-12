@@ -1,1 +1,22 @@
 
+Essential steps in Web internationalization
+
+1. Character encoding declaration
+There is a character encoding declaration near the start of your source code, and  its value is UTF-8.
+
+Example 1:
+
+<head>
+<meta charset="utf-8"/>
+...
+</head>
+
+2. Primary language declaration
+
+The HTML tag has a lang attribute which correctly indicates the language of your content.
+
+Example 2: This indicates that the page is in French.
+
+<!doctype html>
+<html lang="fr">
+<head>
