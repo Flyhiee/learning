@@ -20,3 +20,18 @@ Example 2: This indicates that the page is in French.
 <!doctype html>
 <html lang="fr">
 <head>
+
+A minimal HTML5 document
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Page Title</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+</head>
+<body>
+... <!-- The rest is content -->
+</body>
+</html>
