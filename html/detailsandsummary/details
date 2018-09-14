@@ -1,0 +1,2 @@
+The <details> and <summary> elements
+The <details> element generates a simple widget to show/hide element contents, optionally by clicking on its child <summary> element.
