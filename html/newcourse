@@ -35,3 +35,24 @@ A minimal HTML5 document
 ... <!-- The rest is content -->
 </body>
 </html>
+
+
+The <section>, <article>, <nav> and <aside> elements are called "sectioning elements". They cut a document into slices we call "sections".
+
+
+<h1>...<h6> are called headings, and define the header of a section (whether explicitly marked up using sectioning content elements, or implied by the heading content itself). This means that:
+
+<body>
+    <h1>Title of my document</h1>
+    ...
+</body>
+... defines the header of a section implicitly, while:
+
+<body>
+   ...
+   <section>
+      <h1>Title of my section</h1>
+      ...
+   </section>
+</body>
+... defines the heading of the explicit section (its parent element <section>).
