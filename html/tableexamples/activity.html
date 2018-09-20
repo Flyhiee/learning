@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Styling your table</title>
+  <style>
+  table,th,td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+  }
+  th{
+    padding: 12px;
+    text-align: center;
+  }
+tr,td{
+  text-align: left;
+  padding: 10px;
+  padding-right: 142px;
+}
+table.d{
+  margin-top: 66px;
+}
+.d th{
+  background-color: lightgray;
+}
+.d th{
+  border: 3px solid #222;
+}
+.dgd td{
+  border: 3px solid #222;
+}
+.bgd td{
+  border: 3px solid #222;
+}
+  </style>
+</head>
+<body>
+  <table>
+      <tr><th>Attribute</th><th>Description</th> <th>Usage</th></tr>
+        <tr><td>src</td><td>Used to specify the URL of the image</td><td>src=“images/test.png"</td></tr>
+        <tr><td>alt</td><td>Used to specify replacement text for the image</td><td>alt=“Test image for HTML5 course”</td></tr>
+  </table>
+
+  <table class="d">
+  <tr>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+  </tr>
+  <tr class="dgd">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+
+    <td rowspan="3">&nbsp;</td>
+  </tr>
+  <tr class="bgd">
+  <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr class="dgd">
+    <td colspan="2">&nbsp;</td>
+  </tr>
+
+</table>
+</body>
+</html>
