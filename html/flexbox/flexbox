@@ -1,1 +1,9 @@
 
+Strictly speaking, the flex-flow property is actually an abbreviation that replaces two other flexbox container properties: flex-direction and flex-wrap.  But the row wrap value is so useful that it will likely be the standard.   
+
+flex-flow: <flex-direction> <flex-wrap>;
+
+The possible values for the flex-direction are: row, row-reverse, column, and column-reverse.
+
+The values for the flex-wrap part are: wrap, wrap-reverse, and nowrap.
+
