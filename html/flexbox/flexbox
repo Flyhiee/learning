@@ -7,3 +7,10 @@ The possible values for the flex-direction are: row, row-reverse, column, and co
 
 The values for the flex-wrap part are: wrap, wrap-reverse, and nowrap.
 
+calc()
+The ideal height for the main section is that of the viewport minus the height of the header.  You may remember that the vh unit is a percentage of the viewport.  So 100vh is one hundred percent of the viewport.  And we can see that the height of the header in the CSS above is 100px.  
+
+Wherever a CSS dimension unit is accepted we can also provide the calc() expression. This expression lets us mix units of different types. It looks like this:
+
+main { height: calc(100vh - 100px); }
+
