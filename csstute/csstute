@@ -1,1 +1,12 @@
 
+<!DOCTYPE html> <!-- Doctype declares the document to be HTML 5 type-->
+<html lang="en"> <!--All your HTML content must be within this tag-->
+    <head> <!--Anything in the header provides information about the document, no content here-->
+        <meta charset="utf-8">
+        <title>Page Title</title> <!--This text will show up on the tab of the browser for this page-->
+    </head> <!--end for the header section-->
+    <body> <!--start tag for the body section, this is where to put all your content to be displayed-->
+        <h1>My First Heading</h1> <!--content in a h1 tag is a “heading” of the top level-->
+        <p>My first paragraph.</p> <!--content in a p tag is normal or “paragraph” level text-->
+    </body>
+</html>
