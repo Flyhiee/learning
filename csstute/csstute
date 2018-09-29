@@ -10,3 +10,8 @@
         <p>My first paragraph.</p> <!--content in a p tag is normal or “paragraph” level text-->
     </body>
 </html>
+
+
+There are other types of tags that are called "self-closing", meaning they don't come in an open/close pair. Typically self-closing tags insert content into your page as opposed to surround content. They look like this:
+
+<img src="images/pic1.png" alt="pic1" />
