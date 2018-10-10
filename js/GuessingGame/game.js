@@ -1,7 +1,7 @@
 // program data:
-var number = Math.floor(Math.random() * 100);
+var number = Math.floor(Math.random() * 10);
 var guess;
-var limit = 5;
+var limit = 3;
 var won =  false;
 var guesses = [];
 
@@ -9,7 +9,7 @@ var guesses = [];
 for (var i = 1; i <= limit; i++){
     // prompt user for their guess
     do{
-        guess = parseInt(prompt("Guess a number"));
+        guess = parseInt(prompt("Guess a number between 1 to 10"));
     } while(isNaN(guess) || isPreviousGuess(guess));
 
     // if correct: let the user know they won
